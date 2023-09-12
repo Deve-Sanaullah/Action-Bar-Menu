@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/add"
+        android:title="@string/add_contact"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/fav"
+        android:title="@string/favourite"
+        android:icon="@drawable/favorite"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/baseline_share_24"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/whatsapp"
+                android:title="@string/whatsapp"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/instagram"
+                android:title="@string/instagram"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        android:icon="@drawable/exit"
+        app:showAsAction="never"/>
+
+</menu>

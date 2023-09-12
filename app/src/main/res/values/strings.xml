@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">action_bar_menu_00091</string>
+    <string name="favourite">Favourite</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="instagram">Instagram</string>
+    <string name="exit">Exit</string>
+    <string name="smart_sindh">SMART SINDH</string>
+</resources>
